@@ -1,16 +1,27 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 关于我
+subtitle: 专注于【你的领域，如人工智能/计算机视觉】的学习者与实践者
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### 👨‍🎓 基本信息
+- **姓名**：XXX
+- **邮箱**：your-email@example.com
+- **GitHub**：[你的GitHub用户名](https://github.com/你的用户名)
+- **个人主页**：https://你的用户名.github.io
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### 🎯 研究/工作方向
+- 核心方向：【例如：深度学习在自然语言处理中的应用、多模态融合算法研究】
+- 兴趣领域：【例如：大模型轻量化、低资源语言建模】
 
-What else do you need?
+### 📚 教育背景
+| 时间 | 学校 | 专业 | 学历 |
+|------|------|------|------|
+| 20XX.09 - 20XX.06 | XXX大学 | XXX专业 | 硕士/博士 |
+| 20XX.09 - 20XX.06 | XXX大学 | XXX专业 | 本科 |
 
-### My story
+### 💡 个人信条
+【例如：以严谨的态度做研究，以开放的心态拓合作；在代码与论文之间，寻找技术落地的平衡点】
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 🎨 业余爱好
+- 【例如：阅读学术论文、开源项目贡献、徒步旅行】
