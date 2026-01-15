@@ -1,27 +1,14 @@
----
-layout: page
-title: 关于我
-subtitle: 专注于【你的领域，如人工智能/计算机视觉】的学习者与实践者
----
+Dian Zhang(张滇)
+Associate Professor
+College of Computer Science and Software Engineering
 
-### 👨‍🎓 基本信息
-- **姓名**：XXX
-- **邮箱**：your-email@example.com
-- **GitHub**：[你的GitHub用户名](https://github.com/你的用户名)
-- **个人主页**：https://你的用户名.github.io
+Shenzhen University
 
-### 🎯 研究/工作方向
-- 核心方向：【例如：深度学习在自然语言处理中的应用、多模态融合算法研究】
-- 兴趣领域：【例如：大模型轻量化、低资源语言建模】
+Email:
+zhangd@szu.edu.cn;
 
-### 📚 教育背景
-| 时间 | 学校 | 专业 | 学历 |
-|------|------|------|------|
-| 20XX.09 - 20XX.06 | XXX大学 | XXX专业 | 硕士/博士 |
-| 20XX.09 - 20XX.06 | XXX大学 | XXX专业 | 本科 |
+Tel:
+(0755) 2695 8861
 
-### 💡 个人信条
-【例如：以严谨的态度做研究，以开放的心态拓合作；在代码与论文之间，寻找技术落地的平衡点】
-
-### 🎨 业余爱好
-- 【例如：阅读学术论文、开源项目贡献、徒步旅行】
+Addr:
+Yuehaimen Square Lab 202, Nanhai Ave 3688, Shenzhen University
