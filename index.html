@@ -1,5 +1,97 @@
+#---
+# layout: home
+# title: 张老师
+# subtitle: 我的个人主页
+# ---
+
 ---
-layout: home
-title: 张老师
-subtitle: 我的个人主页
+layout: page
+title: Your Name (你的姓名)
+permalink: /
 ---
+
+<!-- 顶部个人信息区（匹配参考页的头像+核心信息） -->
+<div style="display: flex; align-items: center; margin-bottom: 30px; gap: 20px;">
+    <img src="/images/avatar.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 0; object-fit: cover;">
+    <div>
+        <h1 style="margin: 0; font-size: 2.2em; font-weight: bold;">Your Name (你的姓名)</h1>
+        <p style="margin: 5px 0; font-size: 1.1em;">Ph.D. Candidate / Researcher / 你的头衔</p>
+        <p style="margin: 5px 0;">School/Department, University (你的单位)</p>
+        <p style="margin: 5px 0;">Email: your-email@example.com | GitHub: <a href="https://github.com/你的用户名">github.com/你的用户名</a></p>
+    </div>
+</div>
+
+<!-- About 模块 -->
+## About Me
+<p style="line-height: 1.6;">
+    你的个人简介（简洁版，匹配参考页的简短描述）。例如：My research interests include machine learning, computer vision, and their applications in healthcare. I am currently working on developing efficient deep learning models for medical image analysis.
+</p>
+
+<!-- Education 模块 -->
+## Education
+<ul style="list-style: none; padding: 0; line-height: 1.8;">
+    <li><strong>20XX.09 - 20XX.06</strong> | Ph.D. in XXXX, XXXX University, City, Country</li>
+    <li><strong>20XX.09 - 20XX.06</strong> | M.S. in XXXX, XXXX University, City, Country</li>
+    <li><strong>20XX.09 - 20XX.06</strong> | B.S. in XXXX, XXXX University, City, Country</li>
+</ul>
+
+<!-- Research Interests 模块 -->
+## Research Interests
+<ul style="line-height: 1.6;">
+    <li>Machine Learning (especially deep learning for computer vision)</li>
+    <li>Medical Image Analysis and Interpretation</li>
+    <li>Multimodal Data Fusion</li>
+</ul>
+
+<!-- Publications 模块（参考页核心） -->
+## Publications
+### Journal Papers
+<ol style="line-height: 1.8;">
+    <li>Y. P. Zou, X. Y. Li, <strong>Your Name</strong>, et al. "Paper Title", <em>Journal Name</em>, 20XX. (SCI/SSCI)</li>
+    <li><strong>Your Name</strong>, Y. P. Zou, et al. "Paper Title", <em>Journal Name</em>, 20XX. (SCI/SSCI)</li>
+</ol>
+
+### Conference Papers
+<ol style="line-height: 1.8;">
+    <li><strong>Your Name</strong>, X. Y. Wang, et al. "Paper Title", <em>Conference Name</em>, 20XX. (CCF A/B/C)</li>
+</ol>
+
+<!-- Projects 模块 -->
+## Projects
+<ul style="list-style: none; padding: 0; line-height: 1.8;">
+    <li><strong>20XX.01 - 20XX.12</strong> | Project Name (Funding: XXXX)</li>
+    <li style="margin-left: 20px;">Role: Core Developer / Researcher</li>
+    <li style="margin-left: 20px;">Description: Brief project description (what you did, key outcomes).</li>
+</ul>
+
+<!-- Experience 模块（可选） -->
+## Experience
+<ul style="list-style: none; padding: 0; line-height: 1.8;">
+    <li><strong>20XX.07 - 20XX.09</strong> | Research Intern, XXXX Lab, XXXX Company</li>
+    <li style="margin-left: 20px;">Responsibilities: XXXX</li>
+</ul>
+
+<!-- 样式微调：统一字体和间距 -->
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 40px;
+        line-height: 1.6;
+    }
+    h2 {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 1.5em;
+    }
+    a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
