@@ -4,14 +4,18 @@ title: ZhangDian (张滇)
 permalink: /
 ---
 
-<!-- 顶部个人信息区（匹配参考页的头像+核心信息） -->
+<!-- 顶部个人信息区（添加Google Scholar链接+加宽适配） -->
 <div style="display: flex; align-items: center; margin-bottom: 40px; gap: 25px; flex-wrap: wrap;">
     <img src="assets/img/zhangdian.png" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 0; object-fit: cover;">
     <div>
         <h1 style="margin: 0; font-size: 2.4em; font-weight: 700; color: #222222;">ZhangDian (张滇)</h1>
         <p style="margin: 8px 0; font-size: 1.2em; color: #333333; font-weight: 500;">Ph.D. Candidate / Professor</p>
         <p style="margin: 5px 0; font-size: 1.05em; color: #444444;">Lingnan University/Division of Industrial Data Science</p>
-        <p style="margin: 5px 0; font-size: 1.05em; color: #444444;">Email: zhangdian@ln.edu.hk | GitHub: <a href="https://github.com/zhangdian617" style="color: #0000EE; text-decoration: none;">github.com/zhangdian617</a></p>
+        <p style="margin: 5px 0; font-size: 1.05em; color: #444444;">
+            Email: zhangdian@ln.edu.hk | 
+            GitHub: <a href="https://github.com/zhangdian617" style="color: #0000EE; text-decoration: none;">github.com/zhangdian617</a> |
+            Google Scholar: <a href="你的Google Scholar链接" style="color: #0000EE; text-decoration: none;">scholar.google.com/citations?user=你的ID</a>
+        </p>
     </div>
 </div>
 
@@ -20,14 +24,6 @@ permalink: /
 <p style="line-height: 1.7; color: #444444; font-size: 1.05em;">
     Prof. Zhang is an Associate Professor at the College of Computer Science and Software Engineering, Shenzhen University. She is also an adjunct associate professor at Department of Computing and Decision Sciences, Lingnan University, Hong Kong. She received her PhD in Department of Computer Science and Engineering, Hong Kong University of Science and Technology in 2010 under the supervision of Prof. Lionel M. Ni. Her research interests span over big data analytics, mobile computing, Internet of Things. Her research works have been published in many international well-known journals and conferences, including IEEE transaction on Mobile Computing (TMC), IEEE Transactions on Parallel and Distributed Systems (TPDS), IEEE Internet of Things Journal, IEEE INFOCOM, IEEE ICDCS, IEEE PERCOM, IEEE Big Data. Her work has been widely cited by prestigious institutes such as Stanford University, McGill University, Tsinghua University. She is the PI of many research projects including the National Natural Science Foundation of China, Shenzhen Peacock projects. She is the recipient of 2018 Ministry of Education of China 2nd Class Academic Research Outstanding Award in Nature Science (中国教育部自然科学二等奖), 2013 IBM Faculty Award, 2015 Shenzhen Peacock Talent Award and 2019 China Pacific Insurance Research Achievement Award.
 </p>
-
-<!-- Education 模块 -->
-## Education
-<ul style="list-style: none; padding: 0; line-height: 1.7; color: #444444; font-size: 1.05em;">
-    <li><strong style="color: #333333;">20XX.09 - 20XX.06</strong> | Ph.D. in XXXX, XXXX University, City, Country</li>
-    <li><strong style="color: #333333;">20XX.09 - 20XX.06</strong> | M.S. in XXXX, XXXX University, City, Country</li>
-    <li><strong style="color: #333333;">20XX.09 - 20XX.06</strong> | B.S. in XXXX, XXXX University, City, Country</li>
-</ul>
 
 <!-- Research Interests 模块 -->
 ## Research Interests
@@ -39,6 +35,15 @@ permalink: /
     <li>RFID systems</li>
     <li>Networking and Distributed Systems</li>
     <li><strong style="color: #222222;">I am currently looking for outstanding post-doctoral and graduate students, who are interested in my research area! Please contact me by email!</strong></li>
+</ul>
+
+<!-- 新增 Awards and Achievements 板块 -->
+## Awards and Achievements
+<ul style="list-style: none; padding: 0; line-height: 1.7; color: #444444; font-size: 1.05em;">
+    <li><strong style="color: #333333;">2018</strong> | 2nd Class Academic Research Outstanding Award in Nature Science, Ministry of Education of China (中国教育部自然科学二等奖)</li>
+    <li><strong style="color: #333333;">2015</strong> | Shenzhen Peacock Talent Award</li>
+    <li><strong style="color: #333333;">2013</strong> | IBM Faculty Award</li>
+    <li><strong style="color: #333333;">2019</strong> | China Pacific Insurance Research Achievement Award</li>
 </ul>
 
 <!-- Publications 模块（参考页核心） -->
@@ -69,14 +74,14 @@ permalink: /
     <li style="margin-left: 25px;">Responsibilities: XXXX</li>
 </ul>
 
-<!-- 样式微调：匹配参考页的配色+层次感 -->
+<!-- 样式微调：加宽页面+保持层次感 -->
 <style>
-    /* 全局基础样式（完全匹配参考页的字体/颜色/间距） */
+    /* 加宽页面宽度，从920px改为1200px，适配更大屏幕 */
     body {
         font-family: "Times New Roman", Times, serif;
-        max-width: 920px;
+        max-width: 1200px; /* 关键修改：加宽页面 */
         margin: 0 auto;
-        padding: 25px 45px;
+        padding: 25px 50px; /* 左右内边距增大，优化宽屏显示 */
         background-color: #ffffff;
         color: #444444;
     }
@@ -84,9 +89,9 @@ permalink: /
     /* 模块标题（h2）：参考页的下划线+深灰+间距 */
     h2 {
         color: #333333;
-        border-bottom: 1px solid #dddddd; /* 参考页的浅灰下划线 */
+        border-bottom: 1px solid #dddddd;
         padding-bottom: 6px;
-        margin-top: 40px; /* 增大模块间距，强化分区 */
+        margin-top: 40px;
         margin-bottom: 18px;
         font-size: 1.6em;
         font-weight: 700;
@@ -108,7 +113,7 @@ permalink: /
         text-decoration: none;
     }
     a:hover {
-        color: #551A8B; /* 参考页hover仅轻微变色，无下划线 */
+        color: #551A8B;
     }
 
     /* 修正列表缩进，避免溢出 */
