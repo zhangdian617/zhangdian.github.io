@@ -1,8 +1,8 @@
 # 基础站点配置
-title: Your Name
+title: ZhangDian
 tagline: 
 description: Personal Homepage
-url: "https://zhangdian.github.io"
+url: "https://zhangdian617.github.io/zhangdian.github.io/"
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 timezone: Asia/Shanghai
